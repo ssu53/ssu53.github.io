@@ -11,15 +11,30 @@ redirect_from:
 Hello!
 ======
 
-I am a first-year PhD student in Computer Science at Stanford University, rotating with [James Zou](https://www.james-zou.com/) and [Carlos Guestrin](https://guestrin.su.domains/). I am broadly interested in machine learning. I am supported by the Stanford School of Engineering Fellowship and the Stanford EDGE Fellowship.
+I am a PhD student in Computer Science at Stanford University, advised by [Serena Yeung-Levy](https://ai.stanford.edu/~syyeung/) and [Ludwig Schmidt](https://people.csail.mit.edu/ludwigs/). I am broadly interested in machine learning. 
 
-I received an MPhil in Computer Science from the University of Cambridge, where I worked on learning over graphs with [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Petar Veličković](https://petar-v.com/). I was supported by the Open Philanthropy Scholarship. In previous lives, I was a trader at [D. E. Shaw & Co.](https://www.deshaw.com/) and a physics major at Princeton University, studying condensed matter theory.
-
+I received an MPhil in Computer Science from the University of Cambridge, where I worked on learning over graphs with [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Petar Veličković](https://petar-v.com/). Previously, I was a trader at [D. E. Shaw & Co.](https://www.deshaw.com/) and a physics major at Princeton University, studying condensed matter theory.
 
 
 Research
 ======
 
+
+* **Three Forms of Stochastic Injection for Improved Distribution-to-Distribution Generative Modeling**  
+  Shiye Su, Yuhui Zhang, Linqi Zhou, Rajesh Ranganath, Serena Yeung-Levy  
+  We identify sparse supervision as a key challenge in the distribution-to-distribution learning and improve performance using simple and effective perturbations during training.  
+  [[paper]](https://arxiv.org/abs/2510.06634)
+
+* **OpenThoughts: Data Recipes for Reasoning Models**  
+  Etash Guha, Ryan Marten, Sedrick Keh, Negin Raoof, Georgios Smyrnis, Hritik Bansal, Marianna Nezhurina, Jean Mercat, Trung Vu, Zayne Sprague, Ashima Suvarna, Benjamin Feuer, Liangyu Chen, Zaid Khan, Eric Frankel, Sachin Grover, Caroline Choi, Niklas Muennighoff, Shiye Su, Wanjia Zhao, John Yang, Shreyas Pimpalgaonkar, Kartik Sharma, Charlie Cheng-Jie Ji, Yichuan Deng, Sarah Pratt, Vivek Ramanujan, Jon Saad-Falcon, Jeffrey Li, Achal Dave, Alon Albalak, Kushal Arora, Blake Wulfe, Chinmay Hegde, Greg Durrett, Sewoong Oh, Mohit Bansal, Saadia Gabriel, Aditya Grover, Kai-Wei Chang, Vaishaal Shankar, Aaron Gokaslan, Mike A. Merrill, Tatsunori Hashimoto, Yejin Choi, Jenia Jitsev, Reinhard Heckel, Maheswaran Sathiamoorthy, Alexandros G. Dimakis, Ludwig Schmidt  
+  NeurIPS 2025, Workshop on Foundations of Reasoning in Language Models  
+  We create open-source datasets for training reasoning models and investigate each step of the data geneartion pipeline with 1,000+ controlled experiments, yielding the state-of-the-art OpenThoughts3 model.  
+  [[paper]](https://arxiv.org/abs/2506.04178)  
+
+* **Generative Neural Networks for Kerr Combs**  
+  Janet Zhong, Eran Lustig, Shiye Su, Louise Schul, Jamison Sloan, Congyue Deng, Jelena Vuckovic, Shanhui Fan  
+  NeurIPS 2025, Machine Learning and the Physical Sciences Workshop  
+  We apply generative modeling to the inverse design of Kerr micro-resonators, finding high-bandwidth steady-state solitons as given by Lugiato-Lefever equation simulations. 
 
 * **Explaining Hypergraph Neural Networks: From Local Explanations to Global Concepts**  
   Shiye Su, Iulia Duta, Lucie Charlotte Magister, Pietro Liò  
@@ -50,9 +65,17 @@ Research
 
 
 
+Awards
+======
+
+* Stanford School of Engineering Fellowship, 2024
+* Stanford EDGE Fellowship, 2024
+* Open Philanthropy Scholarship, 2023
+
+
 Miscellaneous
 ======
 
 I am from Australia :) 
 In 2023, I walked for one month from the French Pyrenees to Santiago de Compostela.
-My first research project claims to find a heuristic for the Travelling Salesman Problem by tracking C. Elegans worms in chemotaxis. 
+My first research project claims to find a heuristic for the Travelling Salesman Problem by tracking *C. Elegans* worms in chemotaxis. 🪱
