@@ -1,8 +1,8 @@
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    
+
     
 
 <meta charset="utf-8">
@@ -19,7 +19,7 @@
 
 
 
-<title>  Shiye Su</title>
+<title>Shiye Su</title>
 
 
 
@@ -28,7 +28,7 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Shiye Su">
+<meta property="og:site_name" content="Your Name / Site Title">
 <meta property="og:title" content="Shiye Su">
 
 
@@ -60,7 +60,7 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Shiye Su",
+      "name" : "Your Name",
       "url" : "http://localhost:4000",
       "sameAs" : null
     }
@@ -74,7 +74,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Shiye Su Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Your Name / Site Title Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -86,7 +86,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
     
@@ -110,6 +110,58 @@
 
 <!-- end custom head snippets -->
 
+
+<!-- Add Raleway font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+  /* My custom edits */
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;  /* Reduced from default (typically 16px) */
+        line-height: 1.5;
+    }
+
+  .author__avatar img {
+      border-radius: 0 !important;  /* Overrides the circular shape */
+      border: none !important;  
+      padding: 0 !important;  
+      max-width: 300px;  /* Adjust size as needed */
+      width: 100%;
+      height: auto;
+  }
+
+  .sidebar .author__name {
+      font-size: 42px !important;
+      margin: 20px 0 20px 0;
+      font-weight: 500;
+      line-height: 1.1;
+      /* color: #000; */
+  }
+
+  .page__title {
+    font-size: 24px !important;
+  }
+
+  .page__inner-wrap {
+      padding-left: 3em;
+  }
+
+  /* New styles for social icons and links */
+  .author__urls-wrapper .social-icons a,
+  .author__urls-wrapper .social-icons li {
+      font-family: 'Raleway', sans-serif;
+      font-size: 13px !important;
+      line-height: 1.8;
+  }
+
+
+</style>
+
+
   </head>
 
   <body>
@@ -119,13 +171,13 @@
 <![endif]-->
     
 
-<div class="masthead">
+<!-- <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Shiye Su</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Your Name / Site Title</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
@@ -153,7 +205,7 @@
       </nav>
     </div>
   </div>
-</div>
+</div> -->
 
     
 
@@ -174,20 +226,22 @@
 
   <div class="author__avatar">
     
-    	<img src="http://localhost:4000/images/profile_my.jpg" class="author__avatar" alt="Shiye Su">
+    	<img src="images/profile_my.jpg" class="author__avatar" alt="Your Sidebar Name">
     
   </div>
 
   <div class="author__content">
     <h3 class="author__name">Shiye Su</h3>
     
-    
+    <!-- <p class="author__bio">Short biography for the left-hand sidebar</p> -->
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
+      
+        <!-- <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>California</li> -->
       
       
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>Stanford University</li>
@@ -205,6 +259,10 @@
       
       
       
+        <!-- <li><a href="http://orcid.org/yourorcidurl"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li> -->
+      
+      
+        <!-- <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li> -->
                               
       
       
@@ -221,26 +279,27 @@
 
       <!-- Font Awesome icons / Social media -->
       
+        <!-- <li><a href="https://bsky.app/profile/bsky.app"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li> -->
       
-            
-      
-                  
-                  
-      
-            
-            
-      
-        <li><a href="https://www.linkedin.com/in/shiye-su"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-            
-      
-            
-                  
-            
-      
-            
-            
-      
+        <li><a href="https://www.linkedin.com/in/shiye-su/"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
         <li><a href="https://twitter.com/shiye_su"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>Twitter</a></li>
+
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
       
               
       
@@ -257,7 +316,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="">
+    <meta itemprop="headline" content="Shiye Su">
     
     
     
@@ -265,21 +324,17 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">
-</h1>
-          
-        
-        
-            
+          <h1 class="page__title" itemprop="headline">Hello!</h1>
         </header>
-      
+  
 
-      <section class="page__content" itemprop="text">
-        <h1 id="hello">Hello!</h1>
+  <section class="page__content" itemprop="text">
+    <p>I am a PhD student in Computer Science at Stanford University, advised by <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a> and <a href="https://people.csail.mit.edu/ludwigs/">Ludwig Schmidt</a>. I am broadly interested in machine learning.</p>
 
-<p>I am a PhD student in Computer Science at Stanford University, advised by <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a> and <a href="https://people.csail.mit.edu/ludwigs/">Ludwig Schmidt</a>. I am broadly interested in machine learning.</p>
+    <p>I received an MPhil in Computer Science from the University of Cambridge, where I worked on learning over graphs with <a href="https://www.cl.cam.ac.uk/~pl219/">Pietro Liò</a> and <a href="https://petar-v.com/">Petar Veličković</a>. Previously, I was a trader at <a href="https://www.deshaw.com/">D. E. Shaw &amp; Co.</a> and a physics major at Princeton University, studying condensed matter theory.</p>
 
-<p>I received an MPhil in Computer Science from the University of Cambridge, where I worked on learning over graphs with <a href="https://www.cl.cam.ac.uk/~pl219/">Pietro Liò</a> and <a href="https://petar-v.com/">Petar Veličković</a>. Previously, I was a trader at <a href="https://www.deshaw.com/">D. E. Shaw &amp; Co.</a> and a physics major at Princeton University, studying condensed matter theory.</p>
+
+
 
 <h1 id="research">Research</h1>
 
@@ -337,6 +392,7 @@ My undergraduate thesis was advised by <a href="https://ece.princeton.edu/people
   </li>
 </ul>
 
+
 <h1 id="awards">Awards</h1>
 
 <ul>
@@ -351,8 +407,6 @@ My undergraduate thesis was advised by <a href="https://ece.princeton.edu/people
 In 2023, I walked for one month from the French Pyrenees to Santiago de Compostela.
 My first research project claims to find a heuristic for the Travelling Salesman Problem by tracking <em>C. Elegans</em> worms in chemotaxis. 🪱</p>
 
-
-        
 
         
       </section>
@@ -389,14 +443,14 @@ My first research project claims to find a heuristic for the Travelling Salesman
 
         
 
-
-<!-- <div class="page__footer-follow">
+<!-- 
+<div class="page__footer-follow">
   <ul class="social-icons">
     
       <li><strong>Follow:</strong></li>
     
     
-      <li><a href="http://github.com/ssu53"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="http://github.com/academicpages"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     
@@ -408,7 +462,7 @@ My first research project claims to find a heuristic for the Travelling Salesman
 
 <div class="page__footer-copyright">
   &copy; 2025 Shiye Su, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  <!-- Site last updated 2025-10-13 -->
+  <!-- Site last updated 2025-02-09 -->
 </div>
 
       </footer>
