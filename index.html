@@ -142,6 +142,47 @@
       /* color: #000; */
   }
 
+  @media (max-width: 1024px) {
+    .sidebar.sticky {
+      position: static !important;
+      top: auto !important;
+    }
+    
+    .sidebar {
+      display: block !important;
+    }
+    
+    .author__avatar {
+      display: block;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    
+    .author__avatar img {
+      max-width: 200px !important;
+      width: 200px !important;
+      display: block;
+      margin: 0;
+    }
+    
+    .author__content {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+    }
+    
+    .author__urls-wrapper {
+      display: inline-block !important;
+      width: auto !important;
+      vertical-align: middle;
+      margin-left: 1em;
+    }
+    
+    .author__urls-wrapper button {
+      margin: 0;
+    }
+  }
+
   .page__title {
     font-size: 24px !important;
   }
@@ -237,7 +278,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Links</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       
