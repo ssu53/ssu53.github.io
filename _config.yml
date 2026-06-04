@@ -1,0 +1,9 @@
+title: Shiye Su
+description: Personal Website
+baseurl: ""
+url: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
