@@ -1,7 +1,31 @@
 title: Shiye Su
-description: Personal Website
+description: "PhD student in Computer Science at Stanford, working on multimodal learning and generative models."
+url: "https://ssu53.github.io"
 baseurl: ""
-url: ""
+
+# Author
+author:
+  name: "Shiye Su"
+  email: "shiye@stanford.edu"
+  twitter: "shiye_su"
+
+# SEO
+twitter:
+  username: shiye_su
+
+# Social
+social:
+  name: Shiye Su
+  links:
+    - https://twitter.com/shiye_su
+    - https://github.com/ssu53
+    - https://www.linkedin.com/in/shiye-su/
+    - https://scholar.google.com/citations?user=lLew4RwAAAAJ
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
