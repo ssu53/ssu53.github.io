@@ -8,13 +8,19 @@
 
 body {
     font-family: Raleway, sans-serif;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    line-height: 1.2;
     color: #333;
     background-color: #fff;
 }
 
+::selection {
+    background-color: #196127;
+    color: #fff;
+}
+
 .container {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -42,14 +48,14 @@ header {
 }
 
 .social-links a {
-    color: #8b3a3a;
+    color: #196127;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.2s;
 }
 
 .social-links a:hover {
-    color: #5a2525;
+    color: #218034;
 }
 
 .social-links svg {
@@ -71,28 +77,49 @@ nav ul {
 
 nav a {
     font-family: Menlo, Consolas, "Courier New", monospace;
-    color: #8b3a3a;
+    color: #196127;
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #5a2525;
+    color: #218034;
 }
 
 /* Profile photo */
 .profile-photo {
     text-align: center;
-    margin: 40px 0;
-    padding-bottom: 40px;
+    margin: 60px 0;
+    padding-bottom: 60px;
     border-bottom: 1px solid #eee;
+}
+
+.profile-img-wrapper {
+    display: inline-block;
+    position: relative;
 }
 
 .profile-photo img {
     max-width: 500px;
     width: 100%;
     height: auto;
+    display: block;
+}
+
+.profile-photo .profile-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.profile-img-wrapper:hover .profile-hover {
+    opacity: 1;
+}
+
+.profile-img-wrapper:hover .profile-default {
+    opacity: 0;
 }
 
 /* Sections */
@@ -103,11 +130,11 @@ section {
 
 section h2 {
     font-family: Menlo, Consolas, "Courier New", monospace;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: normal;
     margin-bottom: 20px;
     color: #444;
-    border-bottom: 2px solid #8b3a3a;
+    border-bottom: 2px solid #196127;
     padding-bottom: 0;
     display: inline-block;
 }
@@ -122,6 +149,67 @@ section ul {
 
 section li {
     margin-bottom: 10px;
+}
+
+section a {
+    color: #14501f;
+    text-decoration: underline;
+    text-decoration-color: #14501f;
+    transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+section a:hover {
+    color: #196127;
+    text-decoration-color: #196127;
+}
+
+/* Publications */
+.publications {
+    list-style: none;
+    margin-left: 0;
+}
+
+.publication {
+    margin-bottom: 25px;
+}
+
+.pub-title {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.pub-link {
+    display: inline-block;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+.pub-link svg {
+    width: 20px;
+    height: 20px;
+    fill: #14501f;
+    transition: fill 0.2s;
+}
+
+.pub-link:hover svg {
+    fill: #196127;
+}
+
+.pub-authors {
+    color: #444;
+    margin-bottom: 0px;
+}
+
+.pub-venue {
+    color: #444;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.pub-description {
+    margin-top: 5px;
+    color: #666;
 }
 
 /* Smooth scrolling */
