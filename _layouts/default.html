@@ -10,6 +10,20 @@
 <body>
     <div class="container">
         {{ content }}
+        <footer>
+            <p>Shiye Su · Stanford, CA · {{ 'now' | date: "%Y" }}</p>
+        </footer>
     </div>
+<script>
+    // Tap to toggle profile photo on touch devices
+    if (!window.matchMedia('(hover: hover)').matches) {
+        const wrapper = document.querySelector('.profile-img-wrapper');
+        if (wrapper) {
+            wrapper.addEventListener('click', function() {
+                this.classList.toggle('show-alt');
+            });
+        }
+    }
+</script>
 </body>
 </html>

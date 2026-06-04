@@ -6,7 +6,7 @@ title: Shiye Su
 {% include icons.svg %}
 
 <header>
-    <h1 class="name">Shiye Su</h1>
+    <h1 class="name"><a href="#">Shiye Su</a></h1>
     <div class="social-links">
         <a href="mailto:shiye@stanford.edu" aria-label="Email">
             <svg><use href="#icon-email"/></svg>
@@ -32,7 +32,7 @@ title: Shiye Su
         <li><a href="#research">Research</a></li>
         <li><a href="#awards">Awards</a></li>
         <li><a href="#misc">Misc</a></li>
-        <li><a href="#places">Places</a></li>
+        <li><a href="https://vsco.co/shiye-su/gallery">Places</a></li>
     </ul>
 </nav>
 
@@ -60,6 +60,11 @@ title: Shiye Su
     <h2>Research</h2>
     <ul class="publications">
         <li class="publication">
+            <div class="pub-title">Learning to See Through Language: An Exploration of Language Modeling's Effect on Visual Representations</div>
+            <div class="pub-authors">Mark Endo, Shiye Su, Yuhui Zhang, Serena Yeung-Levy</div>
+            <div class="pub-description">Does language modeling actually improve vision, or just bend visual features toward text? We find that visual-instruction-fine-tuning can sharpen semantics and learn stronger representations for downstream applications, but can also erode fine-grained geometry. We propose a lightweight adapter to turn frozen MLLMs into competitive visual backbones.</div>
+        </li>
+        <li class="publication">
             <div class="pub-title">Rethinking Visual Understanding in Text-to-Image Reward Modeling</div>
             <div class="pub-authors">Shiye Su, Xiaohan Wang, Ludwig Schmidt, Serena Yeung-Levy</div>
             <div class="pub-description">We find that widely-used reward models for text-to-image generation are remarkably poor visual reasoners, with these capabilities degrading during preference tuning. We leverage existing multimodal learning data to create a novel type of preference pairs that differ along the text rather than image axis, and use them to achieve improved prompt adherence.</div>
@@ -68,6 +73,7 @@ title: Shiye Su
             <div class="pub-title">Biologically-Constrained Virtual Cell Modeling via Reinforcement Learning</div>
             <div class="pub-authors">Dongxia Wu*, Shiye Su*, Yuhui Zhang*, Elaine Sui, Emma Lundberg, Emily Fox, Serena Yeung-Levy</div>
             <div class="pub-description">We advance cellular perturbation modeling beyond "visually realistic" generations towards "biologically meaningful" ones by introducing a suite of biogically-informed rewards. Used as additional evaluators, training signals for reinforcement post-training, and verifiers for test time scaling, these rewards yield the new state-of-the-art CellFluxRL.</div>
+            <a href="https://arxiv.org/abs/2603.21743" class="pub-link" aria-label="Paper link"><svg><use href="#icon-paper"/></svg></a>
         </li>
         <li class="publication">
             <div class="pub-title">Stochastic Perturbations Improve Distribution-to-Distribution Generative Models</div>
